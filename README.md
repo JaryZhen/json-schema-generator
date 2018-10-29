@@ -8,4 +8,5 @@
 
 ## 参考资料
 https://github.com/temas-hub/jsonSchemaGenerator
+
 https://json-schema.org/understanding-json-schema/index.html
