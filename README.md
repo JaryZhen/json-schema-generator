@@ -3,19 +3,16 @@
 * 将文本格式的 Json 数据转化为 Json Schema；
 
 ## Quick Start
-* 添加Maven
-    
-           
+#### 添加Maven
+     
     <dependency>
       <groupId>com.github.zhizheng</groupId>
       <artifactId>json-schema-generator</artifactId>
       <version>vipkid-0.0.5</version>
     </dependency>
     
-* code
+#### code
 
-
-        
     JsonSchemaConfig jsConfig = new JsonSchemaConfig();
     jsConfig.setPrettyPrint(true);// 优雅打印格式
     jsConfig.setVersion(JsonSchemaVersions.V4.toString());// 默认是 V3
