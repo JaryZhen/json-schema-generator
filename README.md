@@ -5,7 +5,7 @@
 ## Quick Start
 * 添加Maven
     
-    
+           
     <dependency>
       <groupId>com.github.zhizheng</groupId>
       <artifactId>json-schema-generator</artifactId>
@@ -15,6 +15,7 @@
 * code
 
 
+        
     JsonSchemaConfig jsConfig = new JsonSchemaConfig();
     jsConfig.setPrettyPrint(true);// 优雅打印格式
     jsConfig.setVersion(JsonSchemaVersions.V4.toString());// 默认是 V3
@@ -25,6 +26,7 @@
     String jsonString = "{\"flag\":\"test\",\"log\":{\"logId\":1,\"logMsg\":\"hello world\"},\"tags\":[\"java\",\"json\",\"schema\",\"generator\"]}";
     String jsonSchemaString = jsGenerator.fromString(jsonString);
     System.out.println(jsonSchemaString);
+
 
 ## 参考资料
 https://github.com/temas-hub/jsonSchemaGenerator
